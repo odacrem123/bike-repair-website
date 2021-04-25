@@ -18,5 +18,25 @@ main {
 
 .cards {
   background-color: rgb(47, 198, 33);
-  min-height: 300px;;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-color: pink;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card2 {
+  background-color: plum;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card3 {
+  background-color: purple;
+  min-height: 300px;
+  width: 30%;
 }
