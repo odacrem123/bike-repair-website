@@ -6,6 +6,7 @@ body {
   background-image: linear-gradient(#FC5E55, #FA4083);
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  font-size: 1.125rem;
 }
 
 a {
@@ -67,6 +68,6 @@ main {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 3.25rem;
   font-family: 'Playfair Display', serif;
 }
