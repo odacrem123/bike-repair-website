@@ -61,6 +61,7 @@ main {
   background-color: rgba(255, 255, 255, 0.1);
   min-height: 250px;
   transition: background-color 0.30s;
+  color: #c0bfbf;
 }
 
 .card2 {
