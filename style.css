@@ -41,6 +41,10 @@ main {
   padding-right: 100px;
 }
 
+.herobox1 h1 {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.336) ;
+}
+
 .herobox2 {
   flex: 1;
 }
@@ -55,6 +59,7 @@ main {
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   border-radius: 0.25rem;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.24);
 }
 
 .book-online-btn:hover {
@@ -74,6 +79,7 @@ main {
   width: 30%;
   box-sizing: border-box;
   line-height: 1.2rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
 .card1{
