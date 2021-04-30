@@ -45,6 +45,23 @@ main {
   flex: 1;
 }
 
+.book-online-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: none;
+  padding: 0.85rem 1.3rem;
+  color: #FA4083;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.book-online-btn:hover {
+  background-color: #e6e6e6;
+  transition: background-color 0.25s;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -52,26 +69,23 @@ main {
   text-align: center;
 }
 
-.card1{
+.card-item {
+  display: inline-block;
   width: 30%;
+  box-sizing: border-box;
+  line-height: 1.2rem;
+}
+
+.card1{
   background: url('images/image-background-card1.jpg')no-repeat center bottom/cover;
 }
 
-.hover-effect:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  min-height: 250px;
-  transition: background-color 0.30s;
-  color: #c0bfbf;
-}
-
-.card2 {
+.card2 { 
   background: url('images/image-background-card2.jpg')no-repeat center bottom/cover;
-  width: 30%;
 }
 
 .card3 {
   background: url('images/image-background-card3.jpg')no-repeat center bottom/cover;
-  width: 30%;
 }
 
 h1 {
@@ -92,13 +106,23 @@ p {
 }
 
 .cards p {
+  margin-top: 1rem;
   font-size: 0.85rem;
-  line-height: 1.2rem;
-  margin: 10px 30px 20px 30px;
 }
 
 .box-icon  {
   font-size: 5rem;
-  padding: 1.5rem 0 0 0;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.hover-effect {
+  display: inline-block;
+  padding: 20px;
+}
+
+.hover-effect:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.30s;
+  color: #c0bfbf;
+}
+
