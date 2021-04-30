@@ -59,12 +59,8 @@ main {
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-weight: bold;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.24);
-}
-
-nav .book-online-btn {
-  margin-left: 1.5rem;
 }
 
 .book-online-btn:hover {
@@ -77,12 +73,13 @@ nav .book-online-btn {
   background-color: transparent;
   color: #fff;
   transition: background-color 0.25s color 0.25s;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .outline-btn:hover {
   background-color: rgba(230, 230, 230, 0.699);
   color: #FA4083;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.24);
 }
 
 .cards {
